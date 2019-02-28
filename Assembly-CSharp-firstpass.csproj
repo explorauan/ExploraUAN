@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3207D858-F883-1666-5318-C9BEA3823542}</ProjectGuid>
+    <ProjectGuid>{FAD034FD-14F3-0B83-9FE6-65EFDF68C4CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -184,16 +184,16 @@
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -394,10 +394,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="OSCsharp">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
  </Reference>
  <Reference Include="TUIOsharp">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Toshiba/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -435,9 +435,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{098DC409-03C6-EEA3-B3F6-17A7E23BBF20}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+      <Project>{EA9135DC-78D4-B70E-E32A-911BB9EBB539}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
     <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{266FAC85-99EE-C25D-42A2-B7345DC35EB7}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
+      <Project>{DBED52BF-E07E-36AC-A257-6006ABF273EF}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

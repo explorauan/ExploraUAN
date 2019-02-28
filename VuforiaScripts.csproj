@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{098DC409-03C6-EEA3-B3F6-17A7E23BBF20}</ProjectGuid>
+    <ProjectGuid>{EA9135DC-78D4-B70E-E32A-911BB9EBB539}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VuforiaScripts</AssemblyName>
@@ -291,10 +291,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="OSCsharp">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
  </Reference>
  <Reference Include="TUIOsharp">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Toshiba/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

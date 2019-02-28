@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A87A42FA-0833-E060-99DC-CA60E45E862B}</ProjectGuid>
+    <ProjectGuid>{7DBC9CA0-F285-45CF-FB12-9CED17D4130A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -84,19 +84,19 @@
      <Compile Include="Assets\TouchScript\Editor\Utils\PropertyDrawers\ToggleLeftDrawer.cs" />
      <Compile Include="Assets\TouchScript\Modules\TUIO\Editor\InputSources\TuioInputEditor.cs" />
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -348,10 +348,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="OSCsharp">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
  </Reference>
  <Reference Include="TUIOsharp">
- <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ <HintPath>C:/Users/Toshiba/Documents/Gusty/Unity/Interfaz-AR-2018.2.20/Interfaz-AR-2018.2.20/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Toshiba/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -398,15 +398,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3207D858-F883-1666-5318-C9BEA3823542}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{FAD034FD-14F3-0B83-9FE6-65EFDF68C4CD}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{DFAD1697-F26E-368B-2569-77379E74B4D8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{4B9B4A58-81CB-42DC-FC63-131188B15811}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{0F32A221-DEA0-A31B-5408-C8A5C95DE482}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{26C27D8C-A809-7C9B-CF3D-BAD49DA26397}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{098DC409-03C6-EEA3-B3F6-17A7E23BBF20}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+      <Project>{EA9135DC-78D4-B70E-E32A-911BB9EBB539}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
     <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{266FAC85-99EE-C25D-42A2-B7345DC35EB7}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
+      <Project>{DBED52BF-E07E-36AC-A257-6006ABF273EF}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Animation.cs" />
      <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanCameraMove.cs" />
      <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanCameraZoom.cs" />
      <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanCanvasArrow.cs" />
@@ -96,12 +95,14 @@
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\Animation.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\ButtonZoom.cs" />
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\DragMe.cs" />
      <Compile Include="Assets\Scripts\DragPanel.cs" />
      <Compile Include="Assets\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Scripts\FocusController.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 52
+  controlID: 123
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 53
+  controlID: 124
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,9 +336,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a450000
-    m_LastClickedID: 17706
-    m_ExpandedIDs: e4fbffff00000000f644000040450000a4450000
+    m_SelectedIDs: 28470000
+    m_LastClickedID: 0
+    m_ExpandedIDs: e4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -422,9 +422,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.045293376, y: 0.004502565, z: -0.00018331638, w: -0.9989651}
+    m_Target: {x: -0.046791438, y: 0.006000625, z: -0.00026025737, w: -0.99888825}
     speed: 2
-    m_Value: {x: -0.045293376, y: 0.004502565, z: -0.0001833164, w: -0.9989651}
+    m_Value: {x: -0.046791367, y: 0.0060006157, z: -0.00026025696, w: -0.9988867}
   m_Size:
     m_Target: 627.81055
     speed: 2
@@ -556,20 +556,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 56
   m_LastProjectPath: C:\Users\Toshiba\Documents\Gusty\Unity\Interfaz-AR-2018.2.20\Interfaz-AR-2018.2.20
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 439}
-    m_SelectedIDs: c8330000
-    m_LastClickedID: 13256
-    m_ExpandedIDs: 000000007a2e0000942f000016300000323000005a30000078300000a6300000a6310000f63100006e32000082320000e8320000763300003c3500005235000064350000663500009c35000032360000d8360000da360000803800007e390000aa390000e23900002e3b0000023d0000583d0000903d0000ca3d0000c63e0000123f00000c4100000e41000028410000364100004c4100009e410000be410000f8410000fa410000084200000a420000124200001a4200006e4200007a42000016430000b0460000b2460000b4460000b6460000b8460000ba460000bc460000be46000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 7c2e0000
+    m_LastClickedID: 11900
+    m_ExpandedIDs: 000000007c2e0000962f000018300000343000005c3000007a300000a8300000a8310000f83100007032000084320000ea320000783300003e3500005435000066350000683500009e35000034360000da360000dc3600008238000080390000ac390000e4390000303b0000043d00005a3d0000923d0000cc3d0000c83e0000143f00000e410000104100002a410000384100004e410000a0410000c0410000fa410000fc4100000a4200000c420000144200001c420000704200007c42000018430000b0460000b2460000b4460000b6460000b8460000ba460000bc460000be46000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007a2e0000942f000016300000323000005a30000078300000a6300000a6310000f63100006e32000082320000e8320000763300003c3500005235000064350000663500009c35000032360000d8360000da360000803800007e390000aa390000e23900002e3b0000023d0000583d0000903d0000ca3d0000c63e0000123f00000c4100000e41000028410000364100004c4100009e410000be410000f8410000fa410000084200000a420000124200001a4200006e4200007a42000016430000b0460000b2460000b4460000b6460000b8460000ba460000bc460000be460000
+    m_ExpandedIDs: 000000007c2e0000962f000018300000343000005c3000007a300000a8300000a8310000f83100007032000084320000ea320000783300003e3500005435000066350000683500009e35000034360000da360000dc3600008238000080390000ac390000e4390000303b0000043d00005a3d0000923d0000cc3d0000c83e0000143f00000e410000104100002a410000384100004e410000a0410000c0410000fa410000fc4100000a4200000c420000144200001c420000704200007c42000018430000b0460000b2460000b4460000b6460000b8460000ba460000bc460000be460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -649,7 +649,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 63}
     m_GridSize: 56
   m_DirectoriesAreaWidth: 115
 --- !u!114 &18

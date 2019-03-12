@@ -1,0 +1,4 @@
+VERSIONS CONTROL
+
+* Unity: 2018.2.20f1
+* Vuforia: 7.5.26

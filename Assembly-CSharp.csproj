@@ -238,6 +238,7 @@
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\VERSIONS CONTROL.txt" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\TouchScript\license.txt" />

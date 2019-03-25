@@ -86,48 +86,56 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingFound()
     {
-        var rendererComponents = GetComponentsInChildren<Renderer>(true);
-        var colliderComponents = GetComponentsInChildren<Collider>(true);
-        var canvasComponents = GetComponentsInChildren<Canvas>(true);
+        Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
+        Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
         // Enable rendering:
-        foreach (var component in rendererComponents)
-            component.enabled = true;
+        foreach (Renderer component in rendererComponents)
+        {
+                component.enabled = true;
+        }
 
         // Enable colliders:
-        foreach (var component in colliderComponents)
+        foreach (Collider component in colliderComponents)
+        {
             component.enabled = true;
+        }
 
-        // Enable canvas':
-        foreach (var component in canvasComponents)
-            component.enabled = true;
-
-        
-        PanelTarget.gameObject.SetActive(false);
-        PanelLocked.gameObject.SetActive(true);
+        // SOLUTION
+        if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+        {
+            if (!GetComponentInChildren<AudioSource>().isPlaying){
+                mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
+            }
+        }
+        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
     }
 
 
     protected virtual void OnTrackingLost()
     {
-        var rendererComponents = GetComponentsInChildren<Renderer>(true);
-        var colliderComponents = GetComponentsInChildren<Collider>(true);
-        var canvasComponents = GetComponentsInChildren<Canvas>(true);
+        Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
+        Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
         // Disable rendering:
-        foreach (var component in rendererComponents)
+        foreach (Renderer component in rendererComponents)
+        {
             component.enabled = false;
+        }
 
         // Disable colliders:
-        foreach (var component in colliderComponents)
+        foreach (Collider component in colliderComponents)
+        {
             component.enabled = false;
+        }
 
-        // Disable canvas':
-        foreach (var component in canvasComponents)
-            component.enabled = false;
-
-        PanelTarget.gameObject.SetActive(true);
-        PanelLocked.gameObject.SetActive(false);
+        // SOLUTION
+        if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+        {
+            //Funcion para detener el audio
+        //    mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Stop();
+        }
+        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
     }
 
     #endregion // PROTECTED_METHODS

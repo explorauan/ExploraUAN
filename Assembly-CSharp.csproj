@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Scripts\Animation.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Scripts\AugmentedScript.cs" />
      <Compile Include="Assets\Scripts\ButtonZoom.cs" />
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\Coordinates.cs" />
@@ -260,12 +261,12 @@
      <None Include="Assets\Lean\READ ME.txt" />
      <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\MarcadorInterfazAR.xml" />
      <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\ExploraUAN.xml" />
      <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\Paseoartes.xml" />
-     <None Include="Assets\StreamingAssets\Vuforia\MarcadorInterfazAR.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEditor.StandardEvents">

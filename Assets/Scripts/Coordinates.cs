@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Coordinates : MonoBehaviour {
 
@@ -14,13 +15,16 @@ public class Coordinates : MonoBehaviour {
 	public float latitude;
 	public float longitude;
 
+	private float pointReferenceLatitude = 21.4915963f;
+	private float pointReferenceLongitude = -104.8949233f;
+
 	private void Start(){
 		Instance = this;
 		DontDestroyOnLoad(gameObject);
-		StartCoroutine(StartLocationServide());
+		StartCoroutine(StartLocationService());
 	}
 
-	private IEnumerator StartLocationServide(){
+	private IEnumerator StartLocationService(){
 		if(!Input.location.isEnabledByUser){
 			Debug.Log("El usuario no ha hablilitado el GPS");
 			yield break;

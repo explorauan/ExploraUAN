@@ -109,6 +109,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
         }
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+        PanelTarget.gameObject.SetActive(false);
+        PanelLocked.gameObject.SetActive(true);
     }
 
 
@@ -136,6 +138,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         //    mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Stop();
         }
         Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+        PanelTarget.gameObject.SetActive(true);
+        PanelLocked.gameObject.SetActive(false);
     }
 
     #endregion // PROTECTED_METHODS

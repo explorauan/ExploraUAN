@@ -1,8 +1,10 @@
 Android
 PlayerPath?
-C:/Users/Toshiba/Documents/GitHub/Interfaz-AR-2018.2.20/prueba_14.05.19.apk
+C:/Users/Toshiba/Documents/GitHub/Interfaz-AR-2018.2.20/ExploRAUAN.apk
 SceneListBegin?
-Assets/CanvasModel1.unity
+Assets/Inicio.unity
+Assets/Pantalla Principal.unity
+Assets/Camara.unity
 SceneListEnd?
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:TouchScript.Behaviors.Cursors.UI.TextureSwitch
 ef3a3cf32ad949fc78975ae8157dcca6 Assembly-CSharp.dll:TouchScript.Behaviors.Cursors.PenCursor
@@ -84,6 +86,8 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Lean.Touch.LeanTouchEvents
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 b827b25f832158fdaa480c476121350e Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
+486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 c902e31672e5f721a2b8055d8b6fe2f3 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterBase
 716921be3cdd8702b86456e4b67dba3e Assembly-CSharp.dll:TouchScript.Examples.Cube.LayerDelegate
 d91b4e3f0f275b35af63bf5e70bb4f2d Assembly-CSharp.dll:Lean.Touch.LeanSelect
@@ -307,6 +311,7 @@ cf7d1c378b2dd5f84b77e4055ebacc06 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.FireLight
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:TouchScript.Behaviors.Cursors.PointerCursor
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:TouchScript.Examples.Portal.Vortex
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SceneChange
 94c0a8178733bc5e1dd26d514f4fc917 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.FreeLookCam
 291f5a566cdaa56e7bee478e557b5d92 Assembly-CSharp.dll:Lean.Touch.LeanTouch
 f0381a4cdbbdc9731c4f307e73791f48 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionFireAndDebris

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Pantalla Principal.unity
+- path: Assets/Camara.unity
   isLoaded: 1
   isActive: 1

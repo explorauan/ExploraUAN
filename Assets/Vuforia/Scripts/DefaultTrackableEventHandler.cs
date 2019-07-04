@@ -110,8 +110,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
         }
 
-        panelTarget.gameObject.SetActive(true);
-        panelLocked.gameObject.SetActive(false);
+        panelTarget.gameObject.SetActive(false);
+        panelLocked.gameObject.SetActive(true);
     }
 
 
@@ -140,8 +140,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Stop();
         }
 
-        panelTarget.gameObject.SetActive(false);
-        panelLocked.gameObject.SetActive(true);
+        panelTarget.gameObject.SetActive(true);
+        panelLocked.gameObject.SetActive(false);
     }
 
     #endregion // PROTECTED_METHODS

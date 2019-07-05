@@ -22,3 +22,12 @@ public partial class SceneChange : MonoBehaviour{
 		Application.LoadLevel("Camara");
 	}
 }
+
+public partial class SceneChange : MonoBehaviour
+{
+
+    public void About()
+    {
+        Application.LoadLevel("About");
+    }
+}

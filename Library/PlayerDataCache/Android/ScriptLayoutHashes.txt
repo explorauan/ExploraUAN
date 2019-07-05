@@ -1,7 +1,8 @@
 Android
 PlayerPath?
-D:/Github/Interfaz-AR-2018.2.20/xploRAUAN.apk
+E:/Github/Interfaz-AR-2018.2.20/XploRA.apk
 SceneListBegin?
+Assets/Scenes/Bienvenida.unity
 Assets/Scenes/Inicio.unity
 Assets/Scenes/Pantalla Principal.unity
 Assets/Scenes/Camara.unity
@@ -26,6 +27,7 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 8908302db50f1c0758a6758fb9e76277 Assembly-CSharp.dll:TouchScript.Examples.UI.SetColor
 a8970068cd07441f039f583025a1c360 Assembly-CSharp.dll:Lean.Touch.LeanFingerDown
+870b23a18d600e5d2a34f6b0ad960c49 Assembly-CSharp.dll:.Timer
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 170054f78220cc8fb080da48d76cb77c Assembly-CSharp.dll:.PanelManager
 cfec3e0ab4cb682dcc806738d7ffdd46 Assembly-CSharp.dll:TouchScript.Examples.RawInput.Spawner

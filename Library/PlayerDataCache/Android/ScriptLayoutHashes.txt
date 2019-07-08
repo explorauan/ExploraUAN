@@ -6,6 +6,7 @@ Assets/Scenes/Bienvenida.unity
 Assets/Scenes/Inicio.unity
 Assets/Scenes/Pantalla Principal.unity
 Assets/Scenes/Camara.unity
+Assets/Scenes/About.unity
 SceneListEnd?
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:TouchScript.Behaviors.Cursors.UI.TextureSwitch
 ef3a3cf32ad949fc78975ae8157dcca6 Assembly-CSharp.dll:TouchScript.Behaviors.Cursors.PenCursor
@@ -74,8 +75,6 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 8be5f4761552f2e8e26f0262b5fe201c Assembly-CSharp.dll:Lean.Touch.LeanFingerSet
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Lean.Touch.LeanTouchEvents
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
-486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
-486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 716921be3cdd8702b86456e4b67dba3e Assembly-CSharp.dll:TouchScript.Examples.Cube.LayerDelegate
 d91b4e3f0f275b35af63bf5e70bb4f2d Assembly-CSharp.dll:Lean.Touch.LeanSelect
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter

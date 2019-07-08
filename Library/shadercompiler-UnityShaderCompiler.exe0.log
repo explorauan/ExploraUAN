@@ -1,13 +1,108 @@
-Base path: C:/Program Files/Unity/Editor/Data
+Base path: C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=842 outsize=842 ok=1
+Cmd: preprocess
+  insize=2345 outsize=898 ok=1
+Cmd: preprocess
+  insize=1558 outsize=1558 ok=1
+Cmd: preprocess
+  insize=882 outsize=296 ok=1
+Cmd: preprocess
+  insize=261 outsize=258 ok=1
+Cmd: preprocess
+  insize=1802 outsize=1035 ok=1
+Cmd: preprocess
+  insize=904 outsize=407 ok=1
+Cmd: preprocess
+  insize=1589 outsize=528 ok=1
+Cmd: preprocess
+  insize=235 outsize=232 ok=1
+Cmd: preprocess
+  insize=242 outsize=239 ok=1
+Cmd: preprocess
+  insize=1360 outsize=1360 ok=1
+Cmd: preprocess
+  insize=1197 outsize=498 ok=1
+Cmd: preprocess
+  insize=216 outsize=213 ok=1
+Cmd: preprocess
+  insize=643 outsize=223 ok=1
+Cmd: preprocess
+  insize=1913 outsize=1037 ok=1
+Cmd: preprocess
+  insize=923 outsize=923 ok=1
+Cmd: preprocess
+  insize=3170 outsize=811 ok=1
+Cmd: preprocess
+  insize=667 outsize=1346 ok=1
+Cmd: preprocess
+  insize=690 outsize=690 ok=1
+Cmd: preprocess
+  insize=3124 outsize=1467 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=842 outsize=842 ok=1
+Cmd: preprocess
+  insize=2345 outsize=898 ok=1
+Cmd: preprocess
+  insize=1558 outsize=1558 ok=1
+Cmd: preprocess
+  insize=882 outsize=296 ok=1
+Cmd: preprocess
+  insize=261 outsize=258 ok=1
+Cmd: preprocess
+  insize=1802 outsize=1035 ok=1
+Cmd: preprocess
+  insize=904 outsize=407 ok=1
+Cmd: preprocess
+  insize=1380 outsize=265 ok=1
+Cmd: preprocess
+  insize=1589 outsize=528 ok=1
+Cmd: preprocess
+  insize=945 outsize=218 ok=1
+Cmd: preprocess
+  insize=235 outsize=232 ok=1
+Cmd: preprocess
+  insize=242 outsize=239 ok=1
+Cmd: preprocess
+  insize=1360 outsize=1360 ok=1
+Cmd: preprocess
+  insize=1197 outsize=498 ok=1
+Cmd: preprocess
+  insize=216 outsize=213 ok=1
+Cmd: preprocess
+  insize=643 outsize=223 ok=1
+Cmd: preprocess
+  insize=1913 outsize=1037 ok=1
+Cmd: preprocess
+  insize=923 outsize=923 ok=1
+Cmd: preprocess
+  insize=3170 outsize=811 ok=1
+Cmd: preprocess
+  insize=667 outsize=1346 ok=1
+Cmd: preprocess
+  insize=690 outsize=690 ok=1
+Cmd: preprocess
+  insize=3124 outsize=1467 ok=1
+Cmd: preprocess
+  insize=108 outsize=108 ok=1
+Cmd: preprocess
+  insize=771 outsize=196 ok=1
+Cmd: preprocess
+  insize=102 outsize=102 ok=1
+Cmd: preprocess
+  insize=4363 outsize=261 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=17531 outsize=1590 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
+  error: 2 plat 4 at (10): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'\nCompiling Vertex program
+Platform defines: UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_DLDR_ENCODING
+  api=4 type=0 insize=4438 outsize=0 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_DLDR_ENCODING ok=0
+Cmd: preprocess
+  insize=771 outsize=196 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=17531 outsize=1858 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+  error: 2 plat 4 at (10): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'\nCompiling Vertex program
+Platform defines: UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_DLDR_ENCODING
+  api=4 type=0 insize=4438 outsize=0 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_DLDR_ENCODING ok=0

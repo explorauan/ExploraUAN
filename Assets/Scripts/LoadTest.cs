@@ -13,6 +13,11 @@ public class LoadTest : MonoBehaviour {
 
     private AsyncOperation asyn;
 
+    void Start()
+    {
+        loadBar.value = 0;
+    }
+
     public void ClickCarga()
     {
         loadPanel.SetActive(true);
@@ -22,7 +27,7 @@ public class LoadTest : MonoBehaviour {
     IEnumerator LoadSlider(string scene)
     {
         asyn = Application.LoadLevelAsync("Camara");
-        while(!asyn.isDone)
+        while(!asyn.isDone && loadBar.value == 0)
         {
             loadBar.value = asyn.progress * 100;
             charge.text = loadBar.value.ToString() + "%";

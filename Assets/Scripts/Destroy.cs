@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour {
 
-    public GameObject camera;
-
 	public void DestroyObject(){
-        GameObject.Destroy(camera);
+        GameObject.Destroy(GameObject.Find("ARCamera"));
 	}
 }

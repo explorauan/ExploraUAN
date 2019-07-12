@@ -31,3 +31,12 @@ public partial class SceneChange : MonoBehaviour
         Application.LoadLevel("About");
     }
 }
+
+public partial class SceneChange : MonoBehaviour
+{
+
+    public void Recorridos()
+    {
+        Application.LoadLevel("Recorridos");
+    }
+}

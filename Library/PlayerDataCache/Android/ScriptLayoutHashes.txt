@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/Github/Interfaz-AR-2018.2.20/XploRA.apk
+D:/Github/Interfaz-AR-2018.2.20/xploRAUAN.apk
 SceneListBegin?
 Assets/Scenes/Bienvenida.unity
 Assets/Scenes/Inicio.unity
@@ -275,6 +275,7 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DragPanel
 52c9df91a8d7454651b4e6fc258fdf51 Assembly-CSharp.dll:TouchScript.Examples.RawInput.Ball
+4f65352a70c3a9205757a74675ffb7d7 Assembly-CSharp.dll:.RandomImage
 a9c23b4a21cad00f5cd7270efc4ac8c9 Assembly-CSharp.dll:TouchScript.Gestures.TransformGestures.Clustered.ClusteredScreenTransformGesture
 778cf1d915746c1d00efc0943648e92a Assembly-CSharp.dll:TouchScript.Examples.KillMe
 7372abd60a324bb15cc554804b8572cb Assembly-CSharp.dll:TouchScript.Gestures.ReleaseGesture
@@ -337,6 +338,7 @@ a9c23b4a21cad00f5cd7270efc4ac8c9 Assembly-CSharp.dll:TouchScript.Gestures.Transf
 f071d3fa540d2bc75c4ec138372b5f2e Assembly-CSharp.dll:Lean.Touch.LeanTranslate
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:TouchScript.Core.GestureManagerInstance
 5abd449e5a94a9b1cae4d0818f0c3750 Assembly-CSharp.dll:Lean.Touch.LeanFingerUp
+b9b290898584839dab32cd9887e6acfc Assembly-CSharp.dll:.RandomText
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 7e60d5615725450c52a97bb4a61b46d8 Assembly-CSharp.dll:TouchScript.Layers.UI.TouchScriptInputModule

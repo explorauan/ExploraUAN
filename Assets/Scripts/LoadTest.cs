@@ -9,14 +9,11 @@ public class LoadTest : MonoBehaviour {
     public Slider loadBar;
     public Text charge;
 
-    //private float percent;
-
     private AsyncOperation asyn;
 
     private void Start()
     {
-        loadBar.value = 0;
-        charge.text = null;
+        loadBar.value = 0f;
     }
 
     public void ClickCarga()
@@ -27,19 +24,13 @@ public class LoadTest : MonoBehaviour {
 
     IEnumerator LoadSlider(string scene)
     {
-        asyn = Application.LoadLevelAdditiveAsync("Camara");
-        while(!asyn.isDone && loadBar.value < 100)
+        asyn = Application.LoadLevelAsync("Camara");
+
+        while(!asyn.isDone)
         {
             loadBar.value = asyn.progress * 100;
             charge.text = loadBar.value.ToString() + "%";
             yield return null;
         }
-
-        if (asyn.isDone)
-        {
-            loadBar.value = 0;
-            charge.text = null;
-        }
     }
-
 }

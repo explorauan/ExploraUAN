@@ -12,9 +12,15 @@ public class RandomText : MonoBehaviour {
 
     private int random;
 
-    private void Start()
+    private void Awake()
     {
         random = 0;
+
+        textoA.SetActive(false);
+        textoB.SetActive(false);
+        textoC.SetActive(false);
+        textoD.SetActive(false);
+        textoE.SetActive(false);
     }
 
     public void RandomValue()
@@ -25,18 +31,38 @@ public class RandomText : MonoBehaviour {
         {
             case 1:
                 textoA.SetActive(true);
+                textoB.SetActive(false);
+                textoC.SetActive(false);
+                textoD.SetActive(false);
+                textoE.SetActive(false);
                 break;
             case 2:
                 textoB.SetActive(true);
+                textoA.SetActive(false);
+                textoC.SetActive(false);
+                textoD.SetActive(false);
+                textoE.SetActive(false);
                 break;
             case 3:
                 textoC.SetActive(true);
+                textoA.SetActive(false);
+                textoB.SetActive(false);
+                textoD.SetActive(false);
+                textoE.SetActive(false);
                 break;
             case 4:
                 textoD.SetActive(true);
+                textoA.SetActive(false);
+                textoB.SetActive(false);
+                textoC.SetActive(false);
+                textoE.SetActive(false);
                 break;
             case 5:
                 textoE.SetActive(true);
+                textoA.SetActive(false);
+                textoB.SetActive(false);
+                textoC.SetActive(false);
+                textoD.SetActive(false);
                 break;
         }
     }

@@ -96,6 +96,7 @@
     <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
     <Compile Include="Assets\Scripts\ActivateInfo.cs" />
     <Compile Include="Assets\Scripts\AugmentedScript.cs" />
+    <Compile Include="Assets\Scripts\ButtonsReference.cs" />
     <Compile Include="Assets\Scripts\ButtonZoom.cs" />
     <Compile Include="Assets\Scripts\Coordinates.cs" />
     <Compile Include="Assets\Scripts\Default\ActiveStateToggler.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets\Scripts\FocusController.cs" />
     <Compile Include="Assets\Scripts\GPSText.cs" />
     <Compile Include="Assets\Scripts\LoadTest.cs" />
+    <Compile Include="Assets\Scripts\ObtainButton.cs" />
     <Compile Include="Assets\Scripts\RandomImage.cs" />
     <Compile Include="Assets\Scripts\RandomText.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />

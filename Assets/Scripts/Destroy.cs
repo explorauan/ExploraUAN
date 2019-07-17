@@ -5,6 +5,10 @@ using UnityEngine;
 public class Destroy : MonoBehaviour {
 
 	public void DestroyObject(){
-        GameObject.Destroy(GameObject.Find("ARCamera"));
+        if (GameObject.Find("Exit"))
+        {
+            GameObject.Destroy(GameObject.Find("ARCamera"));
+            Debug.Log("Destruido");
+        }
 	}
 }

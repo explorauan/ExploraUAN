@@ -9,9 +9,11 @@ public class RandomImage : MonoBehaviour {
 
     private int random;
 
-    private void Start()
+    private void Awake()
     {
         random = 0;
+        fondoA.SetActive(false);
+        fondoB.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,10 +24,12 @@ public class RandomImage : MonoBehaviour {
         if (random == 1)
         {
             fondoA.SetActive(true);
+            fondoB.SetActive(false);
         }
         else if(random == 2)
         {
             fondoB.SetActive(true);
+            fondoA.SetActive(false);
         }
     }
 }

@@ -11,10 +11,10 @@ public class LoadTest : MonoBehaviour {
 
     private AsyncOperation asyn;
 
-    private void Start()
+    /*private void Awake()
     {
         loadBar.value = 0f;
-    }
+    }*/
 
     public void ClickCarga()
     {
@@ -28,9 +28,14 @@ public class LoadTest : MonoBehaviour {
 
         while(!asyn.isDone)
         {
-            loadBar.value = asyn.progress * 100;
+            loadBar.value = Mathf.Clamp01(asyn.progress / .9f) * 100;
             charge.text = loadBar.value.ToString() + "%";
             yield return null;
         }
+
+        /*if(asyn.isDone == true)
+        {
+            StopCoroutine(LoadSlider("Camara"));
+        }*/
     }
 }

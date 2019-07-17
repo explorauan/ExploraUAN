@@ -8,7 +8,6 @@ public class RandomText : MonoBehaviour {
     public GameObject textoB;
     public GameObject textoC;
     public GameObject textoD;
-    public GameObject textoE;
 
     private int random;
 
@@ -20,12 +19,11 @@ public class RandomText : MonoBehaviour {
         textoB.SetActive(false);
         textoC.SetActive(false);
         textoD.SetActive(false);
-        textoE.SetActive(false);
     }
 
     public void RandomValue()
     {
-        random = Random.Range(1, 6);
+        random = Random.Range(1, 5);
 
         switch (random)
         {
@@ -34,35 +32,24 @@ public class RandomText : MonoBehaviour {
                 textoB.SetActive(false);
                 textoC.SetActive(false);
                 textoD.SetActive(false);
-                textoE.SetActive(false);
                 break;
             case 2:
                 textoB.SetActive(true);
                 textoA.SetActive(false);
                 textoC.SetActive(false);
                 textoD.SetActive(false);
-                textoE.SetActive(false);
                 break;
             case 3:
                 textoC.SetActive(true);
                 textoA.SetActive(false);
                 textoB.SetActive(false);
                 textoD.SetActive(false);
-                textoE.SetActive(false);
                 break;
             case 4:
                 textoD.SetActive(true);
                 textoA.SetActive(false);
                 textoB.SetActive(false);
                 textoC.SetActive(false);
-                textoE.SetActive(false);
-                break;
-            case 5:
-                textoE.SetActive(true);
-                textoA.SetActive(false);
-                textoB.SetActive(false);
-                textoC.SetActive(false);
-                textoD.SetActive(false);
                 break;
         }
     }

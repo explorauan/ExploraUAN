@@ -5,27 +5,27 @@ using UnityEngine;
 public class SelectValue : MonoBehaviour {
 
     public string value;
-	// Use this for initialization
-	void Start () {
+    public GameObject paseo;
+    public GameObject murales;
+
+    // Use this for initialization
+    void Start () {
         value = SaveValue.value;
-	}
-	
-    public void Selected()
-    {
-        if(value == "P")
+
+        if (value == "P")
         {
-            GameObject.Find("Paseo").gameObject.SetActive(true);
-            GameObject.Find("Murales").gameObject.SetActive(false);
+            paseo.SetActive(true);
+            murales.SetActive(false);
         }
-        else if(value == "M")
+        else if (value == "M")
         {
-            GameObject.Find("Paseo").gameObject.SetActive(false);
-            GameObject.Find("Murales").gameObject.SetActive(true);
+            paseo.SetActive(false);
+            murales.SetActive(true);
         }
         else
         {
-            GameObject.Find("Paseo").gameObject.SetActive(true);
-            GameObject.Find("Murales").gameObject.SetActive(true);
+            paseo.SetActive(true);
+            murales.SetActive(true);
         }
     }
 }

@@ -17,15 +17,18 @@ public class SaveValue : MonoBehaviour {
     public void Paseo()
     {
         value = "P";
+        Debug.Log(value);
     }
 
     public void Murales()
     {
         value = "M";
+        Debug.Log(value);
     }
 
     public void Libre()
     {
         value = "L";
+        Debug.Log(value);
     }
 }

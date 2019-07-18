@@ -116,7 +116,9 @@
     <Compile Include="Assets\Scripts\LoadTest.cs" />
     <Compile Include="Assets\Scripts\RandomImage.cs" />
     <Compile Include="Assets\Scripts\RandomText.cs" />
+    <Compile Include="Assets\Scripts\SaveValue.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
+    <Compile Include="Assets\Scripts\SelectValue.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\ZoomBtn.cs" />
     <Compile Include="Assets\Scripts\ZoomBtnmen.cs" />

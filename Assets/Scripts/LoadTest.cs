@@ -11,8 +11,6 @@ public class LoadTest : MonoBehaviour {
 
     private AsyncOperation asyn;
 
-    bool done = false;
-
     private void Awake()
     {
         loadBar.value = 0f;
@@ -28,25 +26,18 @@ public class LoadTest : MonoBehaviour {
     {
         asyn = Application.LoadLevelAsync("Camara");
 
-        while(asyn.isDone == done)
+        while(!asyn.isDone) // loadBar.value < 100
         {
             float progress = Mathf.Clamp01(asyn.progress / .9f);
             loadBar.value = progress * 100;
             charge.text = loadBar.value.ToString() + "%";
 
-            if (loadBar.value == 100 && !asyn.isDone)
+            if (loadBar.value == 100)
             {
-                Debug.Log("Is Done, bitch!");
+                asyn.allowSceneActivation = true;
+                progress = 0f;
+                Debug.Log("Is Done, bitch!" + progress);
             }
-            yield return null;
-        }
-
-        if(loadBar.value == (asyn.progress * 100))
-        {
-            loadBar.value -= Mathf.Clamp01(asyn.progress / .9f);
-            StopCoroutine(LoadSlider("Camara"));
-            Debug.Log(loadBar.value + " reiniciando");
-
             yield return null;
         }
     }

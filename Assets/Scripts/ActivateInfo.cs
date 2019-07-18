@@ -16,11 +16,11 @@ public class ActivateInfo : MonoBehaviour {
 
     private void Update()
     {
-            timer += Time.deltaTime;
+        timer += Time.deltaTime;
 
-            if (timer >= 3.0f)
-            {
-                continueButton.SetActive(true);
-            }
+        if (timer >= 3.0f)
+        {
+            continueButton.SetActive(true);
+        }
     }
 }

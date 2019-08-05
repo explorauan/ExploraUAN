@@ -19,24 +19,24 @@ public class LoadTest : MonoBehaviour {
     public void ClickCarga()
     {
         loadPanel.SetActive(true);
-        StartCoroutine(LoadSlider("Camara"));
+        StartCoroutine(LoadSlider());
+        Debug.Log("isDone: " + asyn.isDone);
     }
 
-    IEnumerator LoadSlider(string scene)
+    IEnumerator LoadSlider()
     {
         asyn = Application.LoadLevelAsync("Camara");
+        asyn.allowSceneActivation = false;
 
         while(!asyn.isDone) // loadBar.value < 100
         {
-            float progress = Mathf.Clamp01(asyn.progress / .9f);
+            float progress = Mathf.Clamp01(asyn.progress / 0.9f);
             loadBar.value = progress * 100;
             charge.text = loadBar.value.ToString() + "%";
 
-            if (loadBar.value == 100)
+            if (asyn.progress == 0.9f)
             {
                 asyn.allowSceneActivation = true;
-                progress = 0f;
-                Debug.Log("Is Done, bitch!" + progress);
             }
             yield return null;
         }

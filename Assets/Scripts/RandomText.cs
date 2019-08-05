@@ -1,24 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RandomText : MonoBehaviour {
 
-    public GameObject textoA;
-    public GameObject textoB;
-    public GameObject textoC;
-    public GameObject textoD;
+    public Text texto;
 
     private int random;
 
     private void Awake()
     {
         random = 0;
-
-        textoA.SetActive(false);
-        textoB.SetActive(false);
-        textoC.SetActive(false);
-        textoD.SetActive(false);
     }
 
     public void RandomValue()
@@ -28,28 +21,16 @@ public class RandomText : MonoBehaviour {
         switch (random)
         {
             case 1:
-                textoA.SetActive(true);
-                textoB.SetActive(false);
-                textoC.SetActive(false);
-                textoD.SetActive(false);
+                texto.text = "Recomendación: Utiliza audífonos para poder escuchar mejor los audios.";
                 break;
             case 2:
-                textoB.SetActive(true);
-                textoA.SetActive(false);
-                textoC.SetActive(false);
-                textoD.SetActive(false);
+                texto.text = "No camines viendo la pantalla de tu teléfono. Evita accidentes.";
                 break;
             case 3:
-                textoC.SetActive(true);
-                textoA.SetActive(false);
-                textoB.SetActive(false);
-                textoD.SetActive(false);
+                texto.text = "Recomendación: Manten distancia del mural para poder ver el modelo 3D.";
                 break;
             case 4:
-                textoD.SetActive(true);
-                textoA.SetActive(false);
-                textoB.SetActive(false);
-                textoC.SetActive(false);
+                texto.text = "Recomendación: Procura estar bajo una buena fuente de luz.";
                 break;
         }
     }
